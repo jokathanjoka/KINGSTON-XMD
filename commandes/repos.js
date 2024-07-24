@@ -4,7 +4,7 @@ const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/jokathanjoka/KINGSTON-XMD';
-  const img = '';
+  const img = 'https://telegra.ph/file/9408d6f75ef62a0be6ae9.jpg';
 
   try {
     const response = await fetch(githubRepo);
@@ -22,7 +22,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `HELLOW WHATSAAP USER WELCOME KINGSTIN SCRIPT 
-this is* *kingstin-md.*\n GET SESSION ID *BY*, *PAIRING CODE*  /
+this is* *kingstin-md.*\n GET SESSION ID *BY*, *PAIRING CODE*  https://pairingcod-63465fd92ffa.herokuapp.com/pair/
 
 🕷️ *REPOSITORY:* ${data.html_url}
 🕷️ *STARS:* ${repoInfo.stars}
