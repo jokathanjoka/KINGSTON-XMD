@@ -1,8 +1,8 @@
 {
-  "name":"𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ",
-  "description":"bot whatsapp développéd by joel tech",
+  "name":"KINSTON_TWEED",
+  "description":"Deploy your KINSTON_TWEED now. ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/c0b64b8b1b74475ef90a5.jpg",
+  "logo":"https://telegra.ph/file/e5105667b8bcc37a0ec9a.jpg",
   "repository":"",
   "succes_url":"/",
   "stack":"container",
@@ -29,42 +29,44 @@
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
       "value":"no",
-      "required":true
+      "required":false
     }
     ,
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ",
+      "value":"KINSTON_TWEED",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/1886570d6f98f45220aed.mp4,https://telegra.ph/file/10cbe68e2052c9972d1bd.mp4,https://telegra.ph/file/c0b64b8b1b74475ef90a5.jpg,https://telegra.ph/file/",
+      "value":"https://telegra.ph/file/e5105667b8bcc37a0ec9a.jpg",
       "required":false
        
      },
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"no",
-      "required": true 
+      "value":"yes",
+      "required":false
     }
 	,
     "HEROKU_APY_KEY": {
-    "description": "insert your heroku api-key (this is optionnal)",
-     "required" :true
+    "description": "insert your heroku api-key ",
+     "value":"",
+	"required" :true
     },
   "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (this is optionnal)",
-     "required" :true
+    "description": "insert your heroku APP NAME (the name you wrote at the beginning)",
+     "value":"",
+	"required" :true
     }  
 	  ,
     "SESSION_ID":
     {
-      "description":"put your session ID , the code you receive after scanning Qr code",   
+      "description":"put your session ID, the code you received after pairing code",   
       "value":"",
       "required":true
       
@@ -74,14 +76,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "joel tech"
+    "value": "KINSTON_TWEED"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255714595078"
+    "value": "255756519282,255714595078"
   },
     "WARN_COUNT":
   {
@@ -97,13 +99,13 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"2",
-    "required": true 
+    "value":"",  
+    "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "yes",
-    "required": true 
+    "value": "no",
+    "required": false
   }
   },
 
