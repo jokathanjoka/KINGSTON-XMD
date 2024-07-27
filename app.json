@@ -10,7 +10,7 @@
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":"#",
       "required":true
     },
     "AUTO_READ_STATUS":
@@ -87,7 +87,7 @@
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "2"
+    "value": "3"
   },
   "STARTING_BOT_MESSAGE":
   {
