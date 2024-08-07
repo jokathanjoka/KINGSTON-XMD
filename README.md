@@ -25,7 +25,7 @@
 
  GET SESSION ID HERE
  <br>
- <a href='https://pairingcod-63465fd92ffa.herokuapp.com/pair' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Get session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+ <a href='https://kingstonsesion-0c8733d7b46a.herokuapp.com/pair' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Get session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 **DEPLOY ON HEROKU**
 
