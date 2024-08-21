@@ -1,5 +1,5 @@
 <p align="center">
- KINSTON_TWEED
+ KINSTON_TWEED MD V 2
 </p>
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines= THIS IS +KINSTON_TWEED-MD BOT;MULTI+DEVICE+WHATSAPP+BOT" alt="Typing SVG" /></a>
@@ -25,7 +25,11 @@
 
  GET SESSION ID HERE
  <br>
- <a href='https://kingstonsesion-0c8733d7b46a.herokuapp.com/pair' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Get session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+ <a href='https://kingstonesession-2bbc6c2be873.herokuapp.com/pair' target="_blank"><img alt='pair code' src='https://img.shields.io/badge/pair code-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+
+
+ <br>
+ <a href='https://kingstonesession-2bbc6c2be873.herokuapp.com/qr' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/qr code-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 **DEPLOY ON HEROKU**
 
